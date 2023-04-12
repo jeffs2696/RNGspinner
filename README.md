@@ -11,7 +11,7 @@ List of possible rewards:
 | Steam Deck                                              | 0.005%           |
 | Two spins                                               | 4.995%           |
 | Next shower is warm                                     | 5%               |
-| Game of https://chess.com                                | 5%               |
+| Game of https://chess.com                               | 5%               |
 | Eat fancy tonight                                       | 5%               |
 | Anything for 15 minutes                                 | 5%               |
 | Read a book for 15 minutes                              | 5%               |
@@ -19,4 +19,4 @@ List of possible rewards:
 | Read an article from https://thehackernews.com/         | 5%               |
 | Read an article from https://medium.com/                | 5%               |
 | Read an article from https://www.sciencealert.com/      | 5%               |
-| Nothing                                                 | 50%              |
+| Drink water                                             | 50%              |

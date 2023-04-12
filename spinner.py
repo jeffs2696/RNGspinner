@@ -13,7 +13,7 @@ reward_probs = {
     'Read an article from https://thehackernews.com/': 5,
     'Read an article from https://medium.com/': 5,
     'Read an article from https://www.sciencealert.com/': 5,
-    'Nothing': 50,
+    'Drink water': 50,
 }
 
 
