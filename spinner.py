@@ -36,7 +36,7 @@ def main():
 
     if spin_result != 'Drink water':
         date_time = datetime.datetime.now().strftime("%H:%M, %d/%m/%Y")
-        with open('REWARDS.MD', 'a') as f:
+        with open('rewards.MD', 'a') as f:
             f.write('Motive: ' + reason.capitalize() + '\nPrize: ' + spin_result + '\n' + date_time + '\n\n')
 
 
