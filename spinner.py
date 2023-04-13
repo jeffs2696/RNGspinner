@@ -25,14 +25,19 @@ def spin():
 
 
 def main():
+    reason = input('Provide a worthy reason to spin the Wheel: ')
     spin_result = spin()
+
+    if reason.replace(" ", "") == "":
+        reason = "Void"
+
     print('Your Random Reward is...')
     print(spin_result)
 
-    if spin_result != 'Nothing':
+    if spin_result != 'Drink water':
         date_time = datetime.datetime.now().strftime("%H:%M, %d/%m/%Y")
-        with open('rewards.txt', 'a') as f:
-            f.write(spin_result + '\n' + date_time + '\n\n')
+        with open('REWARDS.MD', 'a') as f:
+            f.write('Motive: ' + reason.capitalize() + '\nPrize: ' + spin_result + '\n' + date_time + '\n\n')
 
 
 if __name__ == '__main__':
